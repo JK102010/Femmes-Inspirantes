@@ -25,6 +25,10 @@ h1 {
 	color: rebeccapurple;
 	font-size: 50px;
 	text-decoration: underline;
+background: linear-gradient(to left, rgb(255,0,0), rgb(121,121,244));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 h3 {
@@ -116,6 +120,7 @@ button {
 button:hover {
   background-color: #e6005c;
 }
+
 
 
 
